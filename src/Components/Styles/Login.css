@@ -1,0 +1,170 @@
+.appnamebutton{
+  background-color: rgb(10, 65, 50); /* Green */
+  border: none;
+  color: white;
+  padding: 10px 28px ;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  }
+  .leftimage{
+    width:100%;
+    height: 100%;
+  }
+  
+  .image{
+      background-image: url(../Images/dark-theme.jpg);
+      background-repeat: no-repeat;
+  
+      background-size: cover;
+      background-position: center;
+      /* opacity:0.5; */
+      
+  }
+  .btn {
+      cursor: pointer;
+      background-color: #32465a;
+      border: none;
+      color: white;
+      padding: 10px 28px ;
+      text-align: center;
+      font-size: 30px;
+      margin-top: 10px;
+      border-radius: 10px;
+      
+    }
+    .btnhome {
+      cursor: pointer;
+      background-color: pink;
+      border: none;
+      color: white;
+      padding: 10px 28px ;
+      text-align: center;
+      width:100%;
+      font-size: 30px;
+      
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+    .button {
+    border-radius: 4px;
+    background-color: #32465a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .copyright{
+      margin-top: 60px;
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .CenterAliningItems{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+      margin-bottom: 10px;
+    }
+  /* //----------------- */
+  .button1 {
+      border-radius: 4px;
+      width: 300px;
+      transition: all 0.5s; 
+      cursor: pointer;
+      margin: 5px;
+  
+      background-color: #0e1111;
+      border: none;
+      color: #366464;
+      padding: 10px 28px ;
+      width: 100%;
+      text-align: center;
+      font-size: 30px;
+      margin-top: 40px;
+     
+      
+     
+    }
+    
+    .button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button1:hover span {
+      padding-right: 25px;
+    }
+    
+    .button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    .error{
+      align-items: center;
+      display: flex;
+      margin-left: 150px;
+    }
+  .loginrightcomponent{
+      box-shadow:0 80px 80px #808888;
+      background-color:#011f4b;
+      
+    }
+    .root{
+
+      position: 'fixed';
+      width: '100%';
+      height: '100%';
+      left: '0';
+      top: '0';
+      background: '#011f4b';
+      z-index: '10';
+    }
+     .Signinsee{
+      display: 'flex';
+      flex-direction: 'column';
+      align-items: 'center';
+      color:'White';
+      width:'100%';
+      box-shadow:" 0 5px 5px #808888";
+    }
